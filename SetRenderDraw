@@ -1,0 +1,3 @@
+ SDL_SetRenderDrawColor(gRenderer, 255, 0, 0, 255);
+    SDL_Rect playerRect = { playerX, playerY, 50, 50 };
+    SDL_RenderFillRect(gRenderer, &playerRect);
